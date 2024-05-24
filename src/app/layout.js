@@ -7,7 +7,7 @@ import { OrderProvider } from "../providers/orders";
 const inter = Inter({ subsets: ["latin"] });
 
 // export const metadata = {
-//   title: 'Copiers Utah',
+//   title: 'Discount Copier',
 //   description: 'Local Copier Company',
 // }
 

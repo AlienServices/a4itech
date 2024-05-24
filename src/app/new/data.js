@@ -226,7 +226,7 @@ const Refurbished = () => {
                         <div className={styles.titleBigBlue}>New Machines</div>
                     </h1>
                     <div className={styles.paragraph}>
-                        Welcome to Copiers Utah, the premier destination for cutting-edge, brand-new copier machines in Utah. Our facility is dedicated to providing the latest models of copiers built to exceed standards within the state and nationwide. Additionally, our service agreements come with a comprehensive full replacement warranty, offering unmatched assurance to our customers. Explore our range of state-of-the-art copier machines below and experience innovation, reliability, and efficiency for your office needs. Contact us today for the best selection of new copiers in Utah!</div>
+                        Welcome to Discount Copier, the premier destination for cutting-edge, brand-new copier machines in Utah. Our facility is dedicated to providing the latest models of copiers built to exceed standards within the state and nationwide. Additionally, our service agreements come with a comprehensive full replacement warranty, offering unmatched assurance to our customers. Explore our range of state-of-the-art copier machines below and experience innovation, reliability, and efficiency for your office needs. Contact us today for the best selection of new copiers in Utah!</div>
                     <div className={styles.grid}>
                         {copiers.map((copier) => {
                             return (
@@ -237,7 +237,7 @@ const Refurbished = () => {
                                             src={`/static/${copier.image}`}
                                             width={200}
                                             height={200}
-                                            alt={"copiers utah"}
+                                            alt={"Discount Copier"}
                                         ></Image>
                                     </div>
                                     <div className={styles.somethingContainer}>

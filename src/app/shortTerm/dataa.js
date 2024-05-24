@@ -86,7 +86,7 @@ const ShortTerm = () => {
       <div className={styles.secondSection}>
         <div>
           <h1 className={styles.title}>
-            Copiers Utah offers short and long term copier rentals.
+            Discount Copier offers short and long term copier rentals.
           </h1>
           <div className={styles.lineRow}>
             <div className={styles.column}>
@@ -199,7 +199,7 @@ const ShortTerm = () => {
       </div>
       <div className={styles.section}>
         <div className={styles.copiersTitle}>
-          Copiers Utah <div className={styles.copiersTitleBlue}>Rental Services</div>
+          Discount Copier <div className={styles.copiersTitleBlue}>Rental Services</div>
         </div>
         <h3 className={styles.titleSmall}>
           We Rent Copiers For All Types Of Events!

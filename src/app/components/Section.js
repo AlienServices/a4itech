@@ -11,7 +11,7 @@ export default function Section() {
                 <div style={{ height: "100px", alignItems: "center", justifyContent: "center" }} className={styles.flex}>
                     
                         <div className={styles.titleWhy}>Why Choose</div>
-                        <div className={styles.titleWhyBlue}>Copiers Utah</div>
+                        <div className={styles.titleWhyBlue}>Discount Copier</div>
                     
                 </div>
                 <div style={{ height: "200px", justifyContent: "space-between" }} className={styles.flex}>

@@ -47,11 +47,11 @@ const Konica = () => {
         </title>
         <meta
           name="description"
-          content="Copiers Utah offers high-quality and affordable Lexmark copiers, both new and used. Learn more about Lexmark copiers and how they can benefit your office. Fill out our quote form to receive a customized quote."
+          content="Discount Copier offers high-quality and affordable Lexmark copiers, both new and used. Learn more about Lexmark copiers and how they can benefit your office. Fill out our quote form to receive a customized quote."
         />
         <meta
           name="keywords"
-          content="Lexmark copiers, used Lexmark copiers, new Lexmark copiers, office copiers, copiers Utah, affordable copiers"
+          content="Lexmark copiers, used Lexmark copiers, new Lexmark copiers, office copiers, Discount Copier, affordable copiers"
         />
       </Head>
       <div>

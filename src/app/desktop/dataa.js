@@ -151,7 +151,7 @@ const Desktop = () => {
                     src={`/static/${copier.image}`}
                     width={150}
                     height={150}
-                    alt={"copiers utah"}
+                    alt={"Discount Copier"}
                   ></Image>
                 </div>
                 <div className={styles.somethingContainer}>

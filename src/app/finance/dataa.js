@@ -84,7 +84,7 @@ const Finance = () => {
       <div id="quote" className={styles.secondSection}>
         <div className={styles.eighty}>
           <h1 className={styles.title}>
-            Copiers Utah offers short and long term copier rentals.
+            Discount Copier offers short and long term copier rentals.
           </h1>
           <div className={styles.row}>
             <div className={styles.column}>

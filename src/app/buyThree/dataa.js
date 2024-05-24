@@ -207,7 +207,7 @@ const Buy = (props) => {
           }}
         >
           <div style={{ display: "flex", alignItems: "center" }}>
-            <div className={styles.paddedBox}>Copiers Utah Payment Options</div>
+            <div className={styles.paddedBox}>Discount Copier Payment Options</div>
           </div>
         </div>
         <div className={styles.thirdSection}>
@@ -252,7 +252,7 @@ const Buy = (props) => {
               <div className={styles.paragraph}>
                 Copier leasing is a cost-effective way for businesses to access
                 the latest copier technology without making a large upfront
-                investment. Leasing copiers through our company, Copiers Utah,
+                investment. Leasing copiers through our company, Discount Copier,
                 offers several benefits to businesses, including flexible
                 leasing agreements and access to maintenance and support. Our
                 customizable leasing agreements allow businesses to choose the
@@ -265,13 +265,13 @@ const Buy = (props) => {
               <div className={styles.paragraph}>
                 Another benefit of copier leasing is that it allows businesses
                 to focus on their core operations, rather than the hassle of
-                maintaining and repairing copier equipment. Copiers Utah offers
+                maintaining and repairing copier equipment. Discount Copier offers
                 maintenance and support with all of our leasing agreements,
                 which means businesses won't have to allocate resources towards
                 equipment upkeep. This can save businesses time and money in the
                 long run, as they can focus on other aspects of their operations
                 while leaving the equipment maintenance to us. Overall, copier
-                leasing through Copiers Utah provides a cost-effective solution
+                leasing through Discount Copier provides a cost-effective solution
                 that allows businesses to access the latest copier technology
                 and focus on their core operations without the hassle of
                 equipment maintenance.
@@ -372,7 +372,7 @@ const Buy = (props) => {
             <div className={styles.eighty}>
               <div className={styles.paragraph}>
                 Looking for copiers for sale or lease, but concerned about the
-                upfront cost? At Copiers Utah, we offer copier financing options
+                upfront cost? At Discount Copier, we offer copier financing options
                 that can help businesses preserve their working capital and
                 acquire the latest copier technology. Our financing options are
                 customizable to meet the specific needs of each business, with

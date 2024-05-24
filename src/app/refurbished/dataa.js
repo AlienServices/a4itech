@@ -264,7 +264,7 @@ const Refurbished = () => {
             <div className={styles.titleBig}>Our Top</div>
             <div className={styles.titleBigBlue}>Refurbished Machines</div>
           </h1>
-          <div className={styles.paragraph}>Copiers Utah is the home to the premier copier remanufacturing facility in the state of Utah. We rebuild copiers to the highest standards anywhere in the state and beyond. We have developed a 33-step process to evaluate all machines and we provide a full replacement warranty with our service agreements. Check out our refurbished copiers below!</div>
+          <div className={styles.paragraph}>Discount Copier is the home to the premier copier remanufacturing facility in the state of Utah. We rebuild copiers to the highest standards anywhere in the state and beyond. We have developed a 33-step process to evaluate all machines and we provide a full replacement warranty with our service agreements. Check out our refurbished copiers below!</div>
           <div className={styles.grid}>
             {copiers.map((copier) => {
               return (
@@ -275,7 +275,7 @@ const Refurbished = () => {
                       src={`/static/${copier.image}`}
                       width={200}
                       height={200}
-                      alt={"copiers utah"}
+                      alt={"Discount Copier"}
                     ></Image>
                   </div>
                   <div className={styles.somethingContainer}>

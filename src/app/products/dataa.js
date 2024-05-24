@@ -66,11 +66,11 @@ const Products = () => {
         </title>
         <meta
           name="description"
-          content="Copiers Utah offers a range of high-quality copiers for sale, including Konica Minolta, Epson, and Lexmark models. Explore our selection and find the perfect copier for your office."
+          content="Discount Copier offers a range of high-quality copiers for sale, including Konica Minolta, Epson, and Lexmark models. Explore our selection and find the perfect copier for your office."
         />
         <meta
           name="keywords"
-          content="copiers for sale, office copiers, Konica Minolta copiers, Epson copiers, Lexmark copiers, copiers Utah"
+          content="copiers for sale, office copiers, Konica Minolta copiers, Epson copiers, Lexmark copiers, Discount Copier"
         />
       </Head>
       <div>

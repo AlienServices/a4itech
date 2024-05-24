@@ -102,7 +102,7 @@ export default function Data() {
             <div className={styles.mainContainer}>
               <div className={styles.buttonCenter}>
                 <div className={styles.bubble}>
-                  Copiers Utah Welcomes You
+                  Discount Copier Welcomes You
                 </div>
               </div>
               <h1>
@@ -243,7 +243,7 @@ export default function Data() {
         <div className={`${styles.sectionMedium} ${styles.hideBox} `}>
           <div className={styles.image1}>
             <div className={styles.titleSmallWhite}>What We Do</div>
-            <div className={styles.paragraphNormal}>Copiers Utah offers new copiers sales, leases and rentals. Plus, we run Utah's leading copier rebuild center for top-notch refurbished copiers. Our skilled technicians can repair nearly any copier brand. For cutting-edge IT services, check out our sister company, Alien IT Services. Your one stop solution for quality and expertise. </div>
+            <div className={styles.paragraphNormal}>Discount Copier offers new copiers sales, leases and rentals. Plus, we run Utah's leading copier rebuild center for top-notch refurbished copiers. Our skilled technicians can repair nearly any copier brand. For cutting-edge IT services, check out our sister company, Alien IT Services. Your one stop solution for quality and expertise. </div>
           </div>
           <div className={styles.image2}>
             <div className={styles.titleSmallWhite}>Our Promise</div>
@@ -326,9 +326,9 @@ export default function Data() {
           </div>
           <div className={styles.sectionContainer}>
             <div className={styles.paragraphTitle}>Copiers And Printers</div>
-            <div className={styles.paragraphMedium}>Welcome to Copiers Utah, your ultimate destination for comprehensive copier solutions in the heart of Utah. Whether you're looking for copiers for sale, leasing options, or convenient short-term copier rentals, we've got you covered. Our shelves boast a diverse selection of top-notch copiers from renowned brands such as Lexmark, Konica Minolta, and Epson, ensuring you'll find the perfect fit for your specific business requirements.</div>
+            <div className={styles.paragraphMedium}>Welcome to Discount Copier, your ultimate destination for comprehensive copier solutions in the heart of Utah. Whether you're looking for copiers for sale, leasing options, or convenient short-term copier rentals, we've got you covered. Our shelves boast a diverse selection of top-notch copiers from renowned brands such as Lexmark, Konica Minolta, and Epson, ensuring you'll find the perfect fit for your specific business requirements.</div>
             <div className={styles.paragraphMedium}>Encountering issues with your copier? No need to worry. Our dedicated team of skilled technicians is committed to maintaining your machines in peak condition through expert repair and maintenance services. We understand the challenges of running a business, and we're here to ensure your copiers keep up with the fast-paced demands.</div>
-            <div className={styles.paragraphMedium}>At Copiers Utah, we don't just provide products; we deliver a promise of quality and reliability. Our mission is to offer not only top-tier copiers but also unparalleled service, with all copier rentals and sales. Whether you're seeking a long-term copier solution or a quick fix, count on us for our extensive expertise and unwavering dedication to meeting your copier needs.</div>
+            <div className={styles.paragraphMedium}>At Discount Copier, we don't just provide products; we deliver a promise of quality and reliability. Our mission is to offer not only top-tier copiers but also unparalleled service, with all copier rentals and sales. Whether you're seeking a long-term copier solution or a quick fix, count on us for our extensive expertise and unwavering dedication to meeting your copier needs.</div>
           </div>
         </div>
         <div style={{ flexDirection: "row-reverse", width: "100vw", backgroundColor: "rgb(224 224 224)", padding: "30px" }} className={styles.section}>

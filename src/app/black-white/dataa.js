@@ -168,7 +168,7 @@ const BlackWhite = () => {
                   <Image
                     src={`/static/${copier.image}`}
                     width={150}
-                    alt={'copiers utah'}
+                    alt={'Discount Copier'}
                     height={150}
                   ></Image>
                 </div>

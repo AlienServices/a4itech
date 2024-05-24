@@ -254,7 +254,7 @@ const Multicolor = () => {
                     src={`/static/${copier.image}`}
                     width={200}
                     height={200}
-                    alt={'copiers utah'}
+                    alt={'Discount Copier'}
                   ></Image>
                 </div>
                 <div className={styles.somethingContainer}>
