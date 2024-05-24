@@ -252,7 +252,7 @@ const Fix = () => {
                         justifyContent: "center",
                       }}
                       className="recaptcha"
-                      sitekey={"6LdNLYElAAAAAIMv324AxwjVLAnHHIdnIWPEYeQi"}
+                      sitekey={"6LcIYucpAAAAALcp08wt1hde46dyQNFlmz0VBcjo"}
                       ref={captchaRef}
                       onChange={verifyCallback}
                     />
