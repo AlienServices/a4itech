@@ -98,7 +98,7 @@
     height: 70%;
     justify-content: space-evenly;
     color: white;
-    background-color: rgb(34, 48, 62);
+    background-color: #8f3f3f;
     align-items: center;
   }
   .line{
@@ -132,7 +132,7 @@
   }
   @media(min-width: 1450px) {
     .logoContainer{
-      height: 90px;
+      height: 30px;
     }
   }
 

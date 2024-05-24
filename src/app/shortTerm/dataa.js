@@ -213,7 +213,7 @@ const ShortTerm = () => {
                 <div className={styles.box}>
                   <div>
                     <Image
-                      src="/static/contructionIcon.webp"
+                      src="/static/trailer.png"
                       alt="construction icon"
                       width={50}
                       height={60}
@@ -225,7 +225,7 @@ const ShortTerm = () => {
               <div className={styles.box}>
                 <div>
                   <Image
-                    src="/static/building.webp"
+                    src="/static/building.png"
                     alt="icon of a building"
                     width={50}
                     height={60}
@@ -236,7 +236,7 @@ const ShortTerm = () => {
               <div className={styles.box}>
                 <div>
                   <Image
-                    src="/static/snow.webp"
+                    src="/static/sun.png"
                     alt="snow icon"
                     width={50}
                     height={60}
@@ -248,7 +248,7 @@ const ShortTerm = () => {
             <div className={styles.box}>
               <div>
                 <Image
-                  src="/static/rental.webp"
+                  src="/static/watch.png"
                   alt="rental icon"
                   width={50}
                   height={60}

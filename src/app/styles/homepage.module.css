@@ -31,9 +31,9 @@
   .buttonBlue {
     appearance: none;
     margin-top: 20px;
-    color: rgb(2,50,92);
+    color: rgb(127 55 55);
     background-color: white;
-    border: 1px solid rgb(2,50,92);
+    border: 1px solid rgb(151, 13, 13);
     border-radius: 6px;
     box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
     box-sizing: border-box;
@@ -57,7 +57,7 @@
   .button {
     appearance: none;
     margin-top: 20px;
-    color: rgb(2,50,92);
+    color: #8f3f3f;
     background-color: white;
     border-radius: 10px;
     box-sizing: border-box;
@@ -388,11 +388,11 @@
     text-align: center;    
   }
   .blue{
-  color: rgb(2,50,92); 
+  color: rgb(143 46 46); 
   padding-left: 15px 
   }
   .blueSmall{
-  color: rgb(2,50,92); 
+  color: #8f3f3f; 
   padding-left: 8px 
   }
   .titleBig {
@@ -508,7 +508,7 @@
   .bubble{
     padding: 8px;
     margin-bottom: 25px;
-    background-color: rgb(24,75,125);
+    background-color: rgb(225 151 136);
     width: fit-content;
     border-radius: 25px;
   }
@@ -528,7 +528,8 @@
   }
   .flexSomething {
     display: flex;
-    background-image: url("/static/hompage.webp");
+    background-color: #8f3f3f;
+    /* background-image: url("/static/hompage.webp"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

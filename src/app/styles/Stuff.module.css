@@ -47,7 +47,7 @@
   .buttonBlue {
     appearance: none;
     border: none;
-    background-color: rgb(1,51,93);
+    background-color: #8f3f3f;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 15px;
     border: none;
@@ -157,7 +157,7 @@
     align-items: center;
   }
   .titleBigBlue {
-    color: rgb(1,51,93);
+    color: #8f3f3f;
     font-size: 38px;
     font-weight: 600;
     

@@ -1,8 +1,8 @@
 "use client"
 import React, { useState, useRef, useEffect } from "react";
 import Head from "next/head";
-import Rental from '../../public/static/rental.webp'
-import It from '../../public/static/it.webp'
+import Rental from '../../public/static/alarm.png'
+import It from '../../public/static/it.png'
 // import Rental from '../../public/static/rental.webp'
 import Image from "next/image";
 import Section from "../app/components/Section";
@@ -178,7 +178,7 @@ export default function Data() {
               <div className={styles.box}>
                 <div className={styles.iconContainer}>
                   <Image
-                    src="/static/repairs.webp"
+                    src="/static/repair.png"
                     alt="copier repair Icon"
                     fill={true}
                   />
@@ -240,27 +240,16 @@ export default function Data() {
         <div className={styles.lineContainer}>
           <div className={styles.line}></div>
         </div>
-        <div id="quote" className={styles.section}>
-          <div className={styles.thirdSectionRow}>
-            <div className={styles.side}>
-              <div className={styles.tonerTitle}>Toner Cartridges For Sale</div>
-              <div className={styles.buttonContainer}>
-                <Link href={'/toner'}>
-                  <button className={styles.button}>Browse Toner</button>
-                </Link>
-              </div>
-            </div>
-            <div className={`${styles.background} ${styles.displayNoneSmall}`}>
-              <Image
-                src="/static/yellowLexmark.webp"
-                alt="yellow lexmark toner"
-                width={300}
-                height={250}
-              />
-            </div>
+        <div className={`${styles.sectionMedium} ${styles.hideBox} `}>
+          <div className={styles.image1}>
+            <div className={styles.titleSmallWhite}>What We Do</div>
+            <div className={styles.paragraphNormal}>Copiers Utah offers new copiers sales, leases and rentals. Plus, we run Utah's leading copier rebuild center for top-notch refurbished copiers. Our skilled technicians can repair nearly any copier brand. For cutting-edge IT services, check out our sister company, Alien IT Services. Your one stop solution for quality and expertise. </div>
+          </div>
+          <div className={styles.image2}>
+            <div className={styles.titleSmallWhite}>Our Promise</div>
+            <div className={styles.paragraphNormal}>We uphold the highest standards of integrity in our products and services. Our copier rebuild service agreements encompass all toner, parts and on-site repairs, and a first year replacement gurantee. When you choose us, rest assured your copier will operate seamlessly in your office, providing you with complete peace of mind.</div>
           </div>
         </div>
-
         <div className={styles.fourthSection}>
           <div>
             <div className={styles.titleBig}>Our
@@ -319,16 +308,10 @@ export default function Data() {
           </div>
 
         </div>
-        <div className={`${styles.sectionMedium} ${styles.hideBox} `}>
-          <div className={styles.image1}>
-            <div className={styles.titleSmallWhite}>What We Do</div>
-            <div className={styles.paragraphNormal}>Copiers Utah offers new copiers sales, leases and rentals. Plus, we run Utah's leading copier rebuild center for top-notch refurbished copiers. Our skilled technicians can repair nearly any copier brand. For cutting-edge IT services, check out our sister company, Alien IT Services. Your one stop solution for quality and expertise. </div>
-          </div>
-          <div className={styles.image2}>
-            <div className={styles.titleSmallWhite}>Our Promise</div>
-            <div className={styles.paragraphNormal}>We uphold the highest standards of integrity in our products and services. Our copier rebuild service agreements encompass all toner, parts and on-site repairs, and a first year replacement gurantee. When you choose us, rest assured your copier will operate seamlessly in your office, providing you with complete peace of mind.</div>
-          </div>
+        <div className={styles.lineContainer}>
+          <div className={styles.line}></div>
         </div>
+
         <div style={{ paddingTop: "80px" }} className={styles.section}>
           <div style={{ width: "55%" }} className={styles.imageContainerParagraph}>
             <Image

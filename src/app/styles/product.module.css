@@ -8,7 +8,7 @@
     align-items: center;
   }
   .blue{
-    color: rgb(2,50,92);
+    color: #8f3f3f;
     font-size: 60px;
     font-weight: 400;
       padding: 10px;
@@ -86,7 +86,7 @@
   .buttonBlue {
     appearance: none;
     border: none;
-    background-color: rgb(1,51,93);
+    background-color: #8f3f3f;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 15px;
     border: none;

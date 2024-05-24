@@ -4,7 +4,7 @@
     height: fit-content;
     min-height: 300px;
     padding: 10px;
-    background-color: rgb(2,50,92);
+    background-color: #8f3f3f;
     color: white;
     align-items: center;
   }
@@ -15,7 +15,7 @@
   .titleWhyBlue{
     padding-right: 8px;
     font-size: 30px;
-    color: rgb(2,50,92);
+    color: #8f3f3f;
   }
   .h4 {
     font-weight: 100;
@@ -94,7 +94,7 @@
     justify-content: center;
     min-height: 350px;
     color: black;
-    background-color: rgb(242,249,255);
+    background-color: rgb(255 230 222);
   }
   .row{
     display: flex;
@@ -151,7 +151,7 @@
     .titleWhyBlue{
       padding-right: 8px;
       font-size: 20px;
-      color: rgb(2,50,92);
+      color: #8f3f3f;
     }
    
   }

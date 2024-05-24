@@ -53,13 +53,7 @@ export default function Header() {
                 <div className={styles.headerPieces}>Copier Repair</div>
                 <div className={styles.lineSmall}></div>
               </Link>
-            </div>
-            <div className={`${styles.pieceContainer} ${styles.hidden}`}>
-              <Link href="/toner">
-                <div className={styles.headerPieces}>Toner</div>
-                <div className={styles.lineSmall}></div>
-              </Link>
-            </div>
+            </div>            
             <div className={`${styles.pieceContainer} ${styles.hidden}`}>
               <Link href="/products">
                 <div className={styles.headerPieces}>Product Line</div>

@@ -311,7 +311,7 @@
   
   .sliver{
     height: 20px; 
-    background-color: rgb(34, 48, 62);
+    background-color: #8f3f3f;
     display: flex; 
     justify-content: flex-end; 
     letter-spacing:1px; 
@@ -553,7 +553,7 @@
     align-items: center;
     border-radius: 5px;
     height: 250px;
-    border: 1px rgb(34, 48, 62) solid;
+    border: 1px #8f3f3f solid;
   }
   .box div{
     color: black;

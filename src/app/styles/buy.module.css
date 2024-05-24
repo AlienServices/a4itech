@@ -94,7 +94,7 @@
   .buttonBlue {
     appearance: none;
     border: none;
-    background-color: rgb(1,51,93);
+    background-color: #8f3f3f;
     width: 80%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border: none;
@@ -308,7 +308,7 @@
   
   .sliver{
     height: 30px; 
-    background-color: rgb(2,50,92);
+    background-color: rgb(82 29 29);
     display: flex; 
     justify-content: flex-end; 
     align-items: center;
@@ -483,7 +483,7 @@
     font-size: 25px;
     color: white;
     transition: all 0.3s ease-in-out;
-    background-color: rgb(1,51,93);
+    background-color: #8f3f3f;
     border-radius: 10px;
     padding: 8px;
     cursor: pointer;
@@ -498,7 +498,7 @@
   }
   
   .option:hover{
-    background-color: rgb(1,51,93);
+    background-color: #8f3f3f;
     color: white;
   }
   

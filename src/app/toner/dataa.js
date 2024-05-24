@@ -201,12 +201,12 @@ const Buy = (props) => {
                             >
                               <div
 
-                                style={{ paddingRight: "5px", color: "rgb(2,50,92)" }}
+                                style={{ paddingRight: "5px", color: "#8f3f3f" }}
                                 className={styles.price}
                               >
                                 $
                             </div>
-                              <div style={{ color: "rgb(2,50,92)" }} className={styles.modelSmallish}>
+                              <div style={{ color: "#8f3f3f" }} className={styles.modelSmallish}>
                                 {toner.price}
                               </div>
                             </div>
