@@ -40,7 +40,7 @@ const Buy = (props) => {
   };
 
   async function sendEmail() {
-  
+
     const requestOptions =
     {
       method: "POST",
@@ -76,6 +76,7 @@ const Buy = (props) => {
   const handleMinimize = () => {
     tawkMessengerRef.current.minimize();
   };
+  
   const onLoad = () => {
     console.log("onLoad works!");
   };
@@ -193,10 +194,10 @@ const Buy = (props) => {
               </div>
             </div>
           ) : (
-              <h2 className={styles.title}>
-                Awesome, we will be contacting you shortly!
-              </h2>
-            )}
+            <h2 className={styles.title}>
+              Awesome, we will be contacting you shortly!
+            </h2>
+          )}
         </div>
         <div
           style={{
@@ -309,8 +310,8 @@ const Buy = (props) => {
               </div>
             </div>
           ) : (
-              <></>
-            )}
+            <></>
+          )}
 
           {rent ? (
             <div className={styles.eighty}>
@@ -366,8 +367,8 @@ const Buy = (props) => {
               </div>
             </div>
           ) : (
-              <></>
-            )}
+            <></>
+          )}
           {finance ? (
             <div className={styles.eighty}>
               <div className={styles.paragraph}>
@@ -428,8 +429,8 @@ const Buy = (props) => {
               </div>
             </div>
           ) : (
-              <></>
-            )}
+            <></>
+          )}
         </div>
       </div>
       <Section />
