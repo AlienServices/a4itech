@@ -9,10 +9,10 @@ export async function POST(req, res) {
     };
     const url = 'https://api.smtp2go.com/v3/email/send';
     const data = {
-        api_key: "api-A4D77AA0362911EEA716F23C91C88F4E",
+        api_key: `${process.env.NEXT_PUBLIC_SMTP_API}`,
         to: [`<info@copiersutah.com>`],
         sender: "<info@copiersutah.com>",
-        subject: `This is kale's quote form. Her number is`,
+        subject: `This is ${newData.name} quote form.`,
         text_body: `something`,
         html_body: `<h1>something</h1>`,
         template_id: "5120871",
