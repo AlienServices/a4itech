@@ -28,6 +28,7 @@ const Product = () => {
   const [timeOut, setTimeOut] = useState()
   const [printSpeed, setPrintSpeed] = useState()
   const [paperSize, setpaperSize] = useState()
+  const [scanSpeed, setScanSpeed] = useState()
   const [modelNumber, setModelNumber] = useState()
   const [lastBullet, setLastBullet] = useState()
   const [defaultType, setDefaultType] = useState("products")
@@ -41,6 +42,7 @@ const Product = () => {
   }
   var verifyCallback = function (response) {
     setRecaptchaResponse(response)
+    console.log(response)
   }
   const captchaRef = useRef(null)
   useEffect(() => {
@@ -49,6 +51,7 @@ const Product = () => {
     const time = localStorage.getItem('timeOut')
     const back = localStorage.getItem('type')
     const speed = localStorage.getItem('PagesPerMinute')
+    const scan = localStorage.getItem('ScanSpeed')
     const modelNumber = localStorage.getItem('Model')
     const paperSize = localStorage.getItem('paperSize')
     const desc = localStorage.getItem('description')
@@ -56,12 +59,13 @@ const Product = () => {
     setDefaultImage(photo)
     setDefaultType(back)
     setPrintSpeed(speed)
+    setScanSpeed(scan)
     setModelNumber(modelNumber)
     setpaperSize(paperSize)
     setTimeOut(time)
     setDescription(desc)
 
-    if (localStorage.getItem('brand') === 'lexmark') {
+    if (localStorage.getItem('brand') === 'Lexmark') {
       setBrandDescription(
         'Lexmark, formerly an IBM company, had produced hands down the most reliable machines ever built. Their modular construction ensures the most efficient paper path in the industry. Independent BLI testing proved their top copier models performing with only 1 jam after 1,000,000 copies tested. Their dominant 85% of the market share in pharmacuetical and medical establishments is a testament to their unrivaled reliability',
       )
@@ -69,7 +73,7 @@ const Product = () => {
         ' Known for their fast print speeds and efficient performance.',
       )
       setAlmostLastBullet("Durability and reliability: Lexmark copiers are built to withstand heavy use and are known for their reliability, reducing downtime and ensuring consistent performance.")
-    } else if (localStorage.getItem('brand') !== 'lexmark') {
+    } else if (localStorage.getItem('brand') !== 'Lexmark') {
       setLastBullet(
         'High-quality output: Konica Minolta copiers are known for delivering exceptional print quality with sharp text and vibrant images.',
       )
@@ -82,7 +86,7 @@ const Product = () => {
 
   const breadCrumbs = [
     { name: "Home", url: "/" },
-    { name: "Refurbished", url: "/refurbished" }
+    { name: "New", url: "/new" }
   ]
   return (
     <div className={styles.main}>
@@ -161,6 +165,17 @@ const Product = () => {
                   /></div>
                   <div className={styles.paragraphSmall}>
                     First page out time is {timeOut} seconds
+                    </div>
+                </div>
+                <div className={styles.bulletContainer}>
+                  <div>   <Image
+                    src="/static/seen.webp"
+                    width={25}
+                    height={25}
+                    alt={"a seen"}
+                  /></div>
+                  <div className={styles.paragraphSmall}>
+                    Scans are {scanSpeed} on the Duplex scanner
                     </div>
                 </div>
                 <div className={styles.bulletContainer}>
